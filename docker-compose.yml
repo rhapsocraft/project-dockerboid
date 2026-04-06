@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   ProjectZomboidDedicatedServer:
-    image: danixu86/project-zomboid-dedicated-server:latest
+    image: danixu86/project-zomboid-dedicated-server:42.16.1-unstable
     restart: unless-stopped
     build:
       context: .
@@ -11,6 +11,15 @@ services:
         - STEAMAPPBRANCH=${STEAMAPPBRANCH}
     env_file:
       - .env
+    environment:
+      WORKSHOP_IDS: "3682136459;3268487204;3635333613;3695670830;3469292499;3693258802;3414634809;3429790870;2447729538;2463184726;2684285534;2812326159;3396622780;2850935956;3470426196;3343810046;3281755175;3403490889;"
+      MOD_IDS: >-
+        \ReflectionEnabler;\WanderingZombiesWIP;\Bandits2;\DynamicTradingCommon;\DynamicTradingV2;\DynamicColonies;\BanditsCreator;\TacHold Complete;
+        \FH;\SpnCharCustom;\SPNCC;\SpnCharCustomDetails;\SPNCCDetails;\SpnCharCustomDetailsHD;\SPNCCDetailsHD;\SpnCharCustomFaces;\SPNCCFaces;\SpnHair;\SpnCloth;\SpnOpenCloth;
+        \TombBody;\TombBodyCustom;\TombBodyTex;\TombBodyTexDOLL;\TombBodyTexNUDE;\LilliesEnhancedMilitaryClothes;\LilliesEnhancedMilitaryClothesTextures;\KATTAJ1_Military;
+        \VanillaVehiclesAnimated;\VanillaVehiclesAnimated_SVU\StandardizedVehicleUpgrades3Core;
+        \SM4BootsExpandedB42;\SM4BootsExpandedFlatshoes;
+
     ports:
       - "16261:16261/udp"
       - "16262:16262/udp"
