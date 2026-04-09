@@ -4,3 +4,5 @@ workshop-mods/*
 !workshop-mods/.gitkeep
 .env
 temp
+links/maps/*
+!links/maps/.gitkeep
