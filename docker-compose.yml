@@ -22,6 +22,8 @@ services:
     volumes:
       # Server data
       - ./data:/home/steam/Zomboid
+      # Server config
+      - ./config/server:/home/steam/Zomboid/Server
       # Workshop mods folder
       - ./workshop-mods:/home/steam/pz-dedicated/steamapps/workshop
       # Reflection Enabler
