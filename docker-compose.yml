@@ -26,4 +26,3 @@ services:
       - ./workshop-mods:/home/steam/pz-dedicated/steamapps/workshop
       # Reflection Enabler
       - ./workshop-mods/content/108600/3682136459/mods/reflection-enabler/zombie:/home/steam/pz-dedicated/zombie
-      # For custom maps
