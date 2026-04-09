@@ -183,6 +183,12 @@ else
   fi
 fi
 
+# Set Maps
+if [ -n "${MAPS}" ]; then
+  echo "*** INFO: Found custom map config: ${MAPS} ***"
+  sed -i "s/Map=.*/Map=${MAPS}/" "${HOMEDIR}/Zomboid/Server/${SERVERNAME}.ini"
+fi
+
 # Fixes EOL in script file for good measure
 sed -i 's/\r$//' /server/scripts/search_folder.sh
 # Check 'search_folder.sh' script for details
