@@ -1,21 +1,43 @@
 # Enabled Mods - load order matters
 enabled_mods:
+  # Libraries
   - PROJECTRVInterior42
   - ReflectionEnabler
   - MoodleFramework
   - tsarslib
   - damnlib
+  - errorMagnifier
+  - ChuckleberryFinnAlertSystem
+
+  # Vehicles
   - 87fordB700
   - KI5campers
   - 85chevyStepVan
+
+  # Vehicle Upgrades
+  - VanillaVehiclesAnimated
+  - StandardizedVehicleUpgrades3Core
+  - StandardizedVehicleUpgrades3V
+  - VanillaVehiclesAnimated_SVU
+
+  # Mechanics & Content
   - WashOrRot
+  - SkillRecoveryJournal
+  - ammomaker
+  - HBVCEFb42
+
+  # AI
   - WanderingZombiesWIP
   - Bandits2
   - DynamicTradingCommon
   - DynamicTradingV2
   - DynamicColonies
   - BanditsCreator
+
+  # Animations
   - TacHold Complete
+
+  # Clothing & Cosmetics
   - FH # Fluffy Hair
   - SPNCC
   - SPNCCDetails
@@ -31,10 +53,6 @@ enabled_mods:
   - LilliesEnhancedMilitaryClothesTextures
   - KATTAJ1_ClothesCore
   - KATTAJ1_Military
-  - VanillaVehiclesAnimated
-  - StandardizedVehicleUpgrades3Core
-  - StandardizedVehicleUpgrades3V
-  - VanillaVehiclesAnimated_SVU
   - SM4BootsExpandedB42
   - SM4BootsExpandedFlatshoes
   - YakiHRB42
@@ -44,7 +62,7 @@ enabled_mods:
 
 # Enable Maps - load order matters
 enabled_maps:
-  - map_distanciado
+  - map_distanciado # Required for RV Interior to work
   - Muldraugh, KY
 
 # Workshop subscriptions
@@ -81,3 +99,8 @@ workshop_ids:
   - 3614034284  # '85 Chevrolet Step-Van
   - 3396446795  # Moodle Framework
   - 3428146910  # Wash Or Rot
+  - 2896041179  # errorMagnifier
+  - 3077900375  # Mod Update and Alert System
+  - 2503622437  # Skill Recovery Journal
+  - 2788256295  # Ammo Maker
+  - 3610677934  # HBVCEFb42
