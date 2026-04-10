@@ -19,7 +19,7 @@ ENV STEAMAPPBRANCH=$STEAMAPPBRANCH
 # Install required packages
 RUN apt-get update \
   && apt-get install -y --no-install-recommends --no-install-suggests \
-  dos2unix \
+  dos2unix yq \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
@@ -37,12 +37,15 @@ RUN set -x \
   +login anonymous \
   +app_update "${STEAMAPPID}" -beta "${STEAMAPPBRANCH}" validate \
   +quit
-
+  
 # Copy the entry point file
 COPY --chown=${USER}:${USER} scripts/entry.sh /server/scripts/entry.sh
-
+  
 # Copy searchfolder file
 COPY --chown=${USER}:${USER} scripts/search_folder.sh /server/scripts/search_folder.sh
+
+# Copy setup file
+COPY --chown=${USER}:${USER} scripts/setup.sh /server/scripts/setup.sh
 
 # Fix line endings and permissions in one layer
 RUN dos2unix /server/scripts/entry.sh /server/scripts/search_folder.sh \

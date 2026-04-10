@@ -1,0 +1,83 @@
+# Enabled Mods - load order matters
+enabled_mods:
+  - PROJECTRVInterior42
+  - ReflectionEnabler
+  - MoodleFramework
+  - tsarslib
+  - damnlib
+  - 87fordB700
+  - KI5campers
+  - 85chevyStepVan
+  - WashOrRot
+  - WanderingZombiesWIP
+  - Bandits2
+  - DynamicTradingCommon
+  - DynamicTradingV2
+  - DynamicColonies
+  - BanditsCreator
+  - TacHold Complete
+  - FH # Fluffy Hair
+  - SPNCC
+  - SPNCCDetails
+  - SPNCCDetailsHD
+  - SPNCCFaces
+  - SpnHair
+  - SpnCloth
+  - SpnOpenCloth
+  - TombBody
+  - TombBodyCustom
+  - TombBodyTex
+  - LilliesEnhancedMilitaryClothes
+  - LilliesEnhancedMilitaryClothesTextures
+  - KATTAJ1_ClothesCore
+  - KATTAJ1_Military
+  - VanillaVehiclesAnimated
+  - StandardizedVehicleUpgrades3Core
+  - StandardizedVehicleUpgrades3V
+  - VanillaVehiclesAnimated_SVU
+  - SM4BootsExpandedB42
+  - SM4BootsExpandedFlatshoes
+  - YakiHRB42
+  - HardwoodsTurnoutGear
+  - TombBodyCompat
+  - TombBodyCompatBootsExp
+
+# Enable Maps - load order matters
+enabled_maps:
+  - map_distanciado
+  - Muldraugh, KY
+
+# Workshop subscriptions
+workshop_ids:
+  - 3682136459
+  - 3268487204
+  - 3635333613
+  - 3695670830
+  - 3469292499
+  - 3693258802
+  - 3414634809
+  - 3429790870
+  - 2447729538
+  - 2463184726
+  - 2684285534
+  - 2812326159
+  - 3396622780
+  - 2850935956
+  - 3470426196
+  - 3343810046
+  - 3281755175
+  - 3403490889
+  - 3431734923
+  - 2787539183
+  - 3671351750
+  - 3470422050
+  - 3402491515
+  - 3304582091
+  - 2983905789
+  - 3543229299
+  - 3110911330
+  - 3171167894
+  - 3670064951
+  - 3614034284
+  - 3396446795
+  - 3428146910

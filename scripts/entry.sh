@@ -2,6 +2,9 @@
 
 cd ${STEAMAPPDIR}
 
+# Setup ENV variables
+source "/server/scripts/setup.sh"
+
 #####################################
 #                                   #
 # Force an update if the env is set #
