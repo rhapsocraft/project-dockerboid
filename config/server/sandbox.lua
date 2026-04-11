@@ -1032,6 +1032,72 @@ SandboxVars = {
         AllowCashcowSpawns = true,
         AllowMcBoxySpawns = true,
     },
+    SVUC = {
+        -- Min: 10 Max: 50 Default: 15
+        timeLight = 15,
+        -- Min: 10 Max: 50 Default: 30
+        timeHeavy = 30,
+        -- Min: 10 Max: 50 Default: 45
+        timeReinforced = 45,
+        -- Min: 10 Max: 50 Default: 15
+        timeMods = 15,
+        -- Min: 10 Max: 50 Default: 15
+        timeWheels = 15,
+        -- Min: 50 Max: 80 Default: 80
+        protectionHealthTriger = 80,
+        -- Min: 1 Max: 10 Default: 5
+        protectionLightHealthDelta = 5,
+        -- Min: 1 Max: 10 Default: 4
+        protectionHeavyHealthDelta = 4,
+        -- Min: 1 Max: 10 Default: 3
+        protectionReinforcedHealthDelta = 3,
+        -- Min: 1 Max: 10 Default: 6
+        protectionBullbarSmallHealthDelta = 6,
+        -- Min: 1 Max: 10 Default: 5
+        protectionBullbarMediumHealthDelta = 5,
+        -- Min: 1 Max: 10 Default: 4
+        protectionBullbarLargeHealthDelta = 4,
+        -- Min: 1 Max: 10 Default: 3
+        protectionPlowHealthDelta = 3,
+        -- Min: 1 Max: 10 Default: 1
+        protectionWheelsHealthDelta = 1,
+        -- Min: 0 Max: 50 Default: 10
+        protectionEngineSmallPowerIncrease = 10,
+        -- Min: 0 Max: 50 Default: 20
+        protectionEngineMediumPowerIncrease = 20,
+        -- Min: 0 Max: 50 Default: 35
+        protectionEngineLargePowerIncrease = 35,
+        -- Min: 0 Max: 50 Default: 50
+        protectionEnginePipedPowerIncrease = 50,
+        -- Min: 0 Max: 50 Default: 15
+        protectionEngineSnorkelPowerIncrease = 15,
+        -- Min: 0 Max: 100 Default: 10
+        protectionLightGasUsage = 10,
+        -- Min: 0 Max: 100 Default: 20
+        protectionHeavyGasUsage = 20,
+        -- Min: 0 Max: 100 Default: 40
+        protectionReinforcedGasUsage = 40,
+        -- Min: 0 Max: 100 Default: 0
+        protectionModsGasUsage = 0,
+        -- Min: 0 Max: 100 Default: 1
+        protectionBullbarSmallGasUsage = 1,
+        -- Min: 0 Max: 100 Default: 5
+        protectionBullbarMediumGasUsage = 5,
+        -- Min: 0 Max: 100 Default: 10
+        protectionBullbarLargeGasUsage = 10,
+        -- Min: 0 Max: 100 Default: 20
+        protectionPlowGasUsage = 20,
+        -- Min: 0 Max: 100 Default: 2
+        protectionEngineSmallGasUsage = 2,
+        -- Min: 0 Max: 100 Default: 3
+        protectionEngineMediumGasUsage = 3,
+        -- Min: 0 Max: 100 Default: 4
+        protectionEngineLargeGasUsage = 4,
+        -- Min: 0 Max: 100 Default: 5
+        protectionEnginePipedGasUsage = 5,
+        -- Min: 0 Max: 100 Default: 1
+        protectionEngineSnorkelGasUsage = 1,
+    },
     WashOrRot = {
         EnableDirtinessMechanic = true,
         -- Min: 10.00 Max: 50.00 Default: 25.00
@@ -1049,6 +1115,129 @@ SandboxVars = {
         BloodinessIncreaseDecreaseRateUntilEffects = 1.0,
         EnableItchingMechanic = true,
         EnableSicknessMechanic = true,
+    },
+    SkillRecoveryJournal = {
+        -- Min: 1 Max: 100 Default: 100
+        RecoveryPercentage = 100,
+        -- Min: 0.00 Max: 1000.00 Default: 1.00
+        TranscribeSpeed = 1.0,
+        -- Min: 0.00 Max: 1000.00 Default: 1.00
+        ReadTimeSpeed = 1.0,
+        RecoverProfessionAndTraitsBonuses = false,
+        TranscribeTVXP = false,
+        -- Min: -1 Max: 100 Default: 0
+        RecoverPassiveSkills = 0,
+        -- Min: -1 Max: 100 Default: -1
+        RecoverPhysicalCategorySkills = -1,
+        -- Min: -1 Max: 100 Default: -1
+        RecoverCombatSkills = -1,
+        -- Min: -1 Max: 100 Default: -1
+        RecoverFirearmSkills = -1,
+        -- Min: -1 Max: 100 Default: -1
+        RecoverCraftingSkills = -1,
+        -- Min: -1 Max: 100 Default: -1
+        RecoverSurvivalistSkills = -1,
+        -- Min: -1 Max: 100 Default: -1
+        RecoverFarmingCategorySkills = -1,
+        -- Min: -1 Max: 100 Default: 0
+        KillsTrack = 0,
+        RecoverRecipes = true,
+        RecoveryJournalUsed = false,
+        SecurityFeatures = 1,
+        CraftRecipeNeedLearn = false,
+        CraftRecipe = "",
+        ModDataTrack = "",
+    },
+    ammomakerOptions = {
+        -- Min: 1 Max: 100 Default: 10
+        NitreYield = 10,
+        -- Min: 1 Max: 5 Default: 1
+        BirdExYield = 1,
+        -- Min: 1 Max: 200 Default: 8
+        BirdExSpawnMin = 8,
+        -- Min: 1 Max: 200 Default: 24
+        BirdExSpawnMax = 24,
+        -- Min: 1 Max: 10 Default: 1
+        BirdFeatherSpawnMin = 1,
+        -- Min: 1 Max: 10 Default: 3
+        BirdFeatherSpawnMax = 3,
+        -- Min: 1 Max: 20 Default: 1
+        CasingsSpawnMin = 1,
+        -- Min: 1 Max: 20 Default: 3
+        CasingsSpawnMax = 3,
+        -- Min: 1 Max: 720 Default: 168
+        DroppedCasingsLifetime = 168,
+        -- Min: 10 Max: 100 Default: 10
+        ProduceAmmoBulkSize = 10,
+        AllowConvertRecipes = false,
+        -- Min: 0.00 Max: 30.00 Default: 10.00
+        ChanceArmyStorageAmmunition = 10.0,
+        -- Min: 0.00 Max: 30.00 Default: 10.00
+        ChanceArmySurplusMisc = 10.0,
+        -- Min: 0.00 Max: 20.00 Default: 5.00
+        ChanceDrugLabGuns = 5.0,
+        -- Min: 0.00 Max: 20.00 Default: 4.00
+        ChanceFirearmWeapons = 4.0,
+        -- Min: 0.00 Max: 20.00 Default: 4.00
+        ChanceFirearmWeapons_Mid = 4.0,
+        -- Min: 0.00 Max: 20.00 Default: 4.00
+        ChanceFirearmWeapons_Late = 4.0,
+        -- Min: 0.00 Max: 20.00 Default: 10.00
+        ChanceGunStoreAmmunition = 10.0,
+        -- Min: 0.00 Max: 50.00 Default: 15.00
+        ChanceGunStoreMagsAmmo = 15.0,
+        -- Min: 0.00 Max: 20.00 Default: 5.00
+        ChanceGunStoreGuns = 5.0,
+        -- Min: 0.00 Max: 20.00 Default: 3.00
+        ChancePoliceStorageAmmunition = 3.0,
+        -- Min: 0.00 Max: 20.00 Default: 3.00
+        ChancePoliceStorageGuns = 3.0,
+        -- Min: 0.00 Max: 2.00 Default: 0.10
+        ChanceWardrobeRedneck = 0.1,
+        -- Min: 0.00 Max: 50.00 Default: 15.00
+        ChanceGunStorePistols = 15.0,
+        -- Min: 0.00 Max: 50.00 Default: 10.00
+        ChanceGunStoreRifles = 10.0,
+        -- Min: 0.00 Max: 50.00 Default: 10.00
+        ChanceGunStoreShotguns = 10.0,
+        -- Min: 0.00 Max: 10.00 Default: 5.00
+        ChanceHuntingLockers = 5.0,
+        -- Min: 0.00 Max: 5.00 Default: 1.00
+        ChanceArmyBunkerStorage = 1.0,
+        -- Min: 0.00 Max: 2.00 Default: 0.40
+        ChanceLockerArmyBedroomHome = 0.4,
+        -- Min: 0.00 Max: 50.00 Default: 35.00
+        ChancePoliceEvidence = 35.0,
+        -- Min: 0.00 Max: 5.00 Default: 0.50
+        ChanceBedroomDresserRedneck = 0.5,
+        -- Min: 0.00 Max: 10.00 Default: 4.00
+        ChanceDrugShackWeapons = 4.0,
+        -- Min: 0.00 Max: 8.00 Default: 4.00
+        ChanceGarageFirearms = 4.0,
+        -- Min: 0.00 Max: 2.00 Default: 0.03
+        ChanceBedroomSidetable = 0.03,
+        -- Min: 0.00 Max: 2.00 Default: 0.02
+        ChanceBedroomSidetableClassy = 0.02,
+        -- Min: 0.00 Max: 2.00 Default: 0.06
+        ChanceBedroomSidetableRedneck = 0.06,
+        -- Min: 0.00 Max: 2.00 Default: 0.04
+        ChanceDresserGeneric = 0.04,
+        -- Min: 0.00 Max: 10.00 Default: 5.00
+        ChancePlankStashGun = 5.0,
+        -- Min: 0.00 Max: 10.00 Default: 2.00
+        ChanceSecurityDesk = 2.0,
+        -- Min: 0.00 Max: 10.00 Default: 2.00
+        ChanceSecurityLockers = 2.0,
+        -- Min: 0.00 Max: 10.00 Default: 4.00
+        ChanceHunter = 4.0,
+        -- Min: 0.00 Max: 20.00 Default: 5.00
+        ChancePrisonArmoryShotguns = 5.0,
+    },
+    HB = {
+        PermanentCasings = false,
+        -- Min: 0 Max: 5 Default: 0
+        MultiplayerTick = 0,
+        CustomIcons = true,
     },
     WZUI = {
         GroupTitle_Lone_MovementAll = false,
@@ -1628,71 +1817,5 @@ SandboxVars = {
         ThermalUnderwear = 0.04,
         -- Min: 0.00 Max: 100.00 Default: 0.01
         NonMilitary = 0.01,
-    },
-    SVUC = {
-        -- Min: 10 Max: 50 Default: 15
-        timeLight = 15,
-        -- Min: 10 Max: 50 Default: 30
-        timeHeavy = 30,
-        -- Min: 10 Max: 50 Default: 45
-        timeReinforced = 45,
-        -- Min: 10 Max: 50 Default: 15
-        timeMods = 15,
-        -- Min: 10 Max: 50 Default: 15
-        timeWheels = 15,
-        -- Min: 50 Max: 80 Default: 80
-        protectionHealthTriger = 80,
-        -- Min: 1 Max: 10 Default: 5
-        protectionLightHealthDelta = 5,
-        -- Min: 1 Max: 10 Default: 4
-        protectionHeavyHealthDelta = 4,
-        -- Min: 1 Max: 10 Default: 3
-        protectionReinforcedHealthDelta = 3,
-        -- Min: 1 Max: 10 Default: 6
-        protectionBullbarSmallHealthDelta = 6,
-        -- Min: 1 Max: 10 Default: 5
-        protectionBullbarMediumHealthDelta = 5,
-        -- Min: 1 Max: 10 Default: 4
-        protectionBullbarLargeHealthDelta = 4,
-        -- Min: 1 Max: 10 Default: 3
-        protectionPlowHealthDelta = 3,
-        -- Min: 1 Max: 10 Default: 1
-        protectionWheelsHealthDelta = 1,
-        -- Min: 0 Max: 50 Default: 10
-        protectionEngineSmallPowerIncrease = 10,
-        -- Min: 0 Max: 50 Default: 20
-        protectionEngineMediumPowerIncrease = 20,
-        -- Min: 0 Max: 50 Default: 35
-        protectionEngineLargePowerIncrease = 35,
-        -- Min: 0 Max: 50 Default: 50
-        protectionEnginePipedPowerIncrease = 50,
-        -- Min: 0 Max: 50 Default: 15
-        protectionEngineSnorkelPowerIncrease = 15,
-        -- Min: 0 Max: 100 Default: 10
-        protectionLightGasUsage = 10,
-        -- Min: 0 Max: 100 Default: 20
-        protectionHeavyGasUsage = 20,
-        -- Min: 0 Max: 100 Default: 40
-        protectionReinforcedGasUsage = 40,
-        -- Min: 0 Max: 100 Default: 0
-        protectionModsGasUsage = 0,
-        -- Min: 0 Max: 100 Default: 1
-        protectionBullbarSmallGasUsage = 1,
-        -- Min: 0 Max: 100 Default: 5
-        protectionBullbarMediumGasUsage = 5,
-        -- Min: 0 Max: 100 Default: 10
-        protectionBullbarLargeGasUsage = 10,
-        -- Min: 0 Max: 100 Default: 20
-        protectionPlowGasUsage = 20,
-        -- Min: 0 Max: 100 Default: 2
-        protectionEngineSmallGasUsage = 2,
-        -- Min: 0 Max: 100 Default: 3
-        protectionEngineMediumGasUsage = 3,
-        -- Min: 0 Max: 100 Default: 4
-        protectionEngineLargeGasUsage = 4,
-        -- Min: 0 Max: 100 Default: 5
-        protectionEnginePipedGasUsage = 5,
-        -- Min: 0 Max: 100 Default: 1
-        protectionEngineSnorkelGasUsage = 1,
     },
 }

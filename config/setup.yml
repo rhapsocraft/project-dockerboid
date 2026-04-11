@@ -25,6 +25,8 @@ enabled_mods:
   - SkillRecoveryJournal
   - ammomaker
   - HBVCEFb42
+  - FWOFitnessWorkoutOverhaul
+  - FWOBenchPress&Treadmill
 
   # AI
   - WanderingZombiesWIP
@@ -38,6 +40,7 @@ enabled_mods:
   - TacHold Complete
 
   # Clothing & Cosmetics
+  - HereGoesTheSun
   - FH # Fluffy Hair
   - SPNCC
   - SPNCCDetails
@@ -82,15 +85,14 @@ workshop_ids:
   - 3396622780  # Lillie's Enhanced Militaria
   - 2850935956  # Boots Expanded 11 for B41 and B42 (42.15 quickfix)
   - 3470426196  # KATTAJ1 Military Pack [B41/B42MP]
-  - 3343810046  # Standardized Vehicle Upgrades 3 - Vanilla Vehicles Animated + Vanilla Vehicle Enhancer Patch
   - 3281755175  # Vanilla vehicles animated
   - 3403490889  # Standardized Vehicle Upgrades 3 - Core - B42
+  - 3304582091  # Standardized Vehicle Upgrades 3 - Vanilla Addon
   - 3431734923  # Tomb's Player Body Overhaul - Compatibility
   - 2787539183  # Yaki's Hair Retexture
   - 3671351750  # Hardwood's FireFighter's Finery
   - 3470422050  # KATTAJ1 Clothes Core [B41/B42MP]
   - 3402491515  # Tsar's Common Library B42
-  - 3304582091  # Standardized Vehicle Upgrades 3 - Vanilla Addon
   - 2983905789  # Wandering Zombies
   - 3543229299  # [B42]Project RV Interior
   - 3110911330  # '87 Ford B700/F700 Trucks
@@ -104,3 +106,5 @@ workshop_ids:
   - 2503622437  # Skill Recovery Journal
   - 2788256295  # Ammo Maker
   - 3610677934  # HBVCEFb42
+  - 2940354599  # Fitness & Workout Overhaul
+  - 3618557184  # Here Goes the Sun [B42MP]
