@@ -1,6 +1,8 @@
 # Enabled Mods - load order matters
 enabled_mods:
   # Libraries
+  - zdk
+  - ZModUnbork
   - PROJECTRVInterior42
   - ReflectionEnabler
   - MoodleFramework
@@ -108,3 +110,5 @@ workshop_ids:
   - 3610677934  # HBVCEFb42
   - 2940354599  # Fitness & Workout Overhaul
   - 3618557184  # Here Goes the Sun [B42MP]
+  - 3690770492  # zdk
+  - 3677147974  # Zed's Universal Mod Unbork
