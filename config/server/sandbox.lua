@@ -1239,6 +1239,47 @@ SandboxVars = {
         MultiplayerTick = 0,
         CustomIcons = true,
     },
+    FWOFitness = {
+        InitialPerkBonus = true,
+        currentExerciseRegularityBonus = true,
+        -- Min: 0 Max: 100 Default: 25
+        currentExerciseOffset = 25,
+        -- Min: 0.01 Max: 100.00 Default: 5.00
+        currentExerciseRate = 5.0,
+        -- Min: 0.00 Max: 100.00 Default: 6.00
+        AverageExerciseRegularityBonus = 6.0,
+        -- Min: 0.00 Max: 100.00 Default: 0.30
+        LevelBonus = 0.3,
+        SpaceOutExercise = true,
+        -- Min: 0.00 Max: 100.00 Default: 0.90
+        SpaceOutExerciseNegative = 0.9,
+        RestedBonus = true,
+        -- Min: 0.00 Max: 10.00 Default: 0.90
+        RestedBonusNegative = 0.9,
+        -- Min: 0.01 Max: 10.00 Default: 1.00
+        XPMultiplier = 1.0,
+        -- Min: 0.00 Max: 10.00 Default: 1.00
+        PassiveMultiplier = 1.0,
+        -- Min: 0.00 Max: 10.00 Default: 1.00
+        BoredomMultiplier = 1.0,
+        -- Min: 0.00 Max: 10.00 Default: 1.00
+        UnhappynessMultiplier = 1.0,
+        DropBags = false,
+        KeepBagsOn = false,
+    },
+    FWOWorkingTreadmill = {
+        -- Min: 0.00 Max: 100.00 Default: 1.00
+        StrengthXPMultiply = 1.0,
+        -- Min: 0.00 Max: 100.00 Default: 1.00
+        SprintingXPMultiply = 1.0,
+        -- Min: 0.00 Max: 5.00 Default: 1.00
+        HeatMultiplier = 1.0,
+        -- Min: 0.00 Max: 5.00 Default: 1.00
+        ThirstMultiplier = 1.0,
+        TreadmillDropBags = false,
+        BenchpressDropBags = false,
+        BenchTreadKeepBagsOn = false,
+    },
     WZUI = {
         GroupTitle_Lone_MovementAll = false,
         GroupTitle_Lone_MovementWander = false,
@@ -1643,6 +1684,11 @@ SandboxVars = {
         AimingRequirement = 0,
         -- Min: 0 Max: 10 Default: 0
         PistolAimingRequirement = 0,
+    },
+    HereGoesTheSun = {
+        EnableGodRays = true,
+        EnableStormMood = true,
+        StormMoodPreset = 2,
     },
     SPNCharCustom = {
         AllowCustomisationChange = 4,

@@ -11,6 +11,9 @@ enabled_mods:
   - errorMagnifier
   - ChuckleberryFinnAlertSystem
 
+  # QoL
+  - AnimSyncSmth
+
   # Vehicles
   - 87fordB700
   - KI5campers
@@ -28,7 +31,7 @@ enabled_mods:
   - ammomaker
   - HBVCEFb42
   - FWOFitnessWorkoutOverhaul
-  - FWOBenchPress&Treadmill
+  - FWOBenchPress\&Treadmill # Escape Ampersand
 
   # AI
   - WanderingZombiesWIP
@@ -49,11 +52,11 @@ enabled_mods:
   - SPNCCDetailsHD
   - SPNCCFaces
   - SpnHair
-  - SpnCloth
-  - SpnOpenCloth
   - TombBody
   - TombBodyCustom
   - TombBodyTex
+  - SpnCloth
+  - SpnOpenCloth
   - LilliesEnhancedMilitaryClothes
   - LilliesEnhancedMilitaryClothesTextures
   - KATTAJ1_ClothesCore
@@ -112,3 +115,4 @@ workshop_ids:
   - 3618557184  # Here Goes the Sun [B42MP]
   - 3690770492  # zdk
   - 3677147974  # Zed's Universal Mod Unbork
+  - 3670959466  # Sync smooth car animations 42.15
