@@ -1280,6 +1280,34 @@ SandboxVars = {
         BenchpressDropBags = false,
         BenchTreadKeepBagsOn = false,
     },
+    ProjectArcade = {
+        DisableDefaultPrizePool = false,
+        ReplaceVanillaArcadesOnLoad = false,
+        ReplaceVanillaPinballsOnLoad = false,
+        -- Min: 0 Max: 100 Default: 100
+        SfxVolumePct = 100,
+        AnnouncementLanguage = 1,
+        CurrencyFullType = "Base.SilverCoin",
+        -- Min: 0 Max: 300 Default: 100
+        CoinDistContainersPct = 100,
+        -- Min: 0 Max: 300 Default: 100
+        CoinDistZombiesPct = 100,
+        -- Min: 0 Max: 300 Default: 100
+        ROMDistPct = 100,
+    },
+    ArmorMakesSense = {
+        EnableThermalModel = true,
+        EnableMuscleStrainModel = true,
+        EnableSleepPenaltyModel = true,
+    },
+    Plumbing = {
+        -- Min: 0.00 Max: 0.10 Default: 0.01
+        PumpFilterUsage = 0.007,
+        -- Min: 0.00 Max: 0.01 Default: 0.00
+        PumpEfficiencyLoss = 0.0012,
+        -- Min: 6 Max: 96 Default: 12
+        PumpMaxWater = 12,
+    },
     WZUI = {
         GroupTitle_Lone_MovementAll = false,
         GroupTitle_Lone_MovementWander = false,
@@ -1656,6 +1684,8 @@ SandboxVars = {
         NPCBaseHealthMultiplier = 1.0,
     },
     DynamicColonies = {
+        -- Min: 0 Max: 10 Default: 0
+        StarterWorkerCount = 0,
         -- Min: 0 Max: 5000 Default: 500
         ColonyDailyCaloriesUse = 500,
         -- Min: 0 Max: 5000 Default: 500
@@ -1678,12 +1708,6 @@ SandboxVars = {
         ColonyDoctorHealthRegenMultiplier = 4.0,
         -- Min: 1 Max: 72 Default: 24
         ColonyBandageTreatmentHours = 24,
-    },
-    TacHold = {
-        -- Min: 0 Max: 10 Default: 0
-        AimingRequirement = 0,
-        -- Min: 0 Max: 10 Default: 0
-        PistolAimingRequirement = 0,
     },
     HereGoesTheSun = {
         EnableGodRays = true,

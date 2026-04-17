@@ -10,9 +10,22 @@ enabled_mods:
   - damnlib
   - errorMagnifier
   - ChuckleberryFinnAlertSystem
+  - NeatUI_Framework
 
   # QoL
   - AnimSyncSmth
+  - DynamicMoodles
+  - MinimalSidebar
+  - twistonfireblacklist
+  - twistonfireinventory
+  - ConeVisionOutline # Note: Only works if melee outline is enabled
+  - DBD_NearbyAnimals
+  - CleanHotBar
+  - Neat_Crafting
+  - Neat_Building
+  - TheShortcut
+  - ItemRarityUI
+  - AutomaticStoveShutoff # Note: This mod also practically disables burnt food
 
   # Vehicles
   - 87fordB700
@@ -32,6 +45,9 @@ enabled_mods:
   - HBVCEFb42
   - FWOFitnessWorkoutOverhaul
   - FWOBenchPress\&Treadmill # Escape Ampersand
+  - ProjectArcade
+  - ArmorMakesSense
+  - Waterpipes
 
   # AI
   - WanderingZombiesWIP
@@ -42,7 +58,7 @@ enabled_mods:
   - BanditsCreator
 
   # Animations
-  - TacHold Complete
+  #- TacHold Complete # Triggering desync and MP performance issues
 
   # Clothing & Cosmetics
   - HereGoesTheSun
@@ -116,3 +132,19 @@ workshop_ids:
   - 3690770492  # zdk
   - 3677147974  # Zed's Universal Mod Unbork
   - 3670959466  # Sync smooth car animations 42.15
+  - 3645980077  # Project Arcade
+  - 3677430162  # Armor makes sense
+  - 3546314080  # Water Pipes
+  - 3674800555  # Dynamic Moodles
+  - 3642084851  # Minimal Sidebar
+  - 3498294068  # Blacklist & Proximity Inventory
+  - 3659137034  # Cone vision outline
+  - 3658756227  # Nearby Animals
+  - 3508537032  # NeatUI Framework
+  - 3461263912  # Clean Hotbar
+  - 3490188370  # Project Cook
+  - 3502080466  # Neat Crafting
+  - 3536052310  # Neat Building
+  - 3470659758  # The Shortcut
+  - 3662387304  # Item Rarity UI
+  - 3526968739  # Automatic Stove Shutoff
