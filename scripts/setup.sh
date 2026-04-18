@@ -8,7 +8,7 @@ MOD_IDS_PATH=".enabled_mods[]"
 MAPS_PATH=".enabled_maps[]"
 WORKSHOP_IDS_PATH=".workshop_ids[]"
 
-PREFIX='\\\\'
+PREFIX='\\'
 SEPARATOR=";"
 
 # Parse mod ids

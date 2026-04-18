@@ -48,8 +48,8 @@ COPY --chown=${USER}:${USER} scripts/search_folder.sh /server/scripts/search_fol
 COPY --chown=${USER}:${USER} scripts/setup.sh /server/scripts/setup.sh
 
 # Fix line endings and permissions in one layer
-RUN dos2unix /server/scripts/entry.sh /server/scripts/search_folder.sh \
-    && chmod 550 /server/scripts/entry.sh /server/scripts/search_folder.sh
+RUN dos2unix /server/scripts/entry.sh /server/scripts/search_folder.sh /server/scripts/setup.sh \
+    && chmod 550 /server/scripts/entry.sh /server/scripts/search_folder.sh /server/scripts/setup.sh
 
 # Create required folders to keep their permissions on mount
 RUN mkdir -p "${HOMEDIR}/Zomboid"
