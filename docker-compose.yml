@@ -1,7 +1,7 @@
 services:
   ProjectZomboidDedicatedServer:
     # Make sure we enforce a specific version
-    image: danixu86/project-zomboid-dedicated-server:42.16.1-unstable
+    image: rhapsocraft/project-zomboid-dedicated-server:42.16.1-unstable
     restart: unless-stopped 
     build:
       context: .
