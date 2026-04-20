@@ -33,9 +33,10 @@ RUN sed -i 's/^# *\(es_ES.UTF-8\)/\1/' /etc/locale.gen \
 RUN set -x \
   && mkdir -p "${STEAMAPPDIR}" \
   && chown -R "${USER}:${USER}" "${STEAMAPPDIR}" \
+  && rm -rf "${STEAMCMDDIR}/appcache" \
   && bash "${STEAMCMDDIR}/steamcmd.sh" +force_install_dir "${STEAMAPPDIR}" \
   +login anonymous \
-  +app_update "${STEAMAPPID}" -beta "${STEAMAPPBRANCH}" validate \
+  +app_update ${STEAMAPPID} -beta ${STEAMAPPBRANCH} validate \
   +quit
   
 # Copy the entry point file

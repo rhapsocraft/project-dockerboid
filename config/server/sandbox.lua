@@ -1286,6 +1286,7 @@ SandboxVars = {
         ReplaceVanillaPinballsOnLoad = false,
         -- Min: 0 Max: 100 Default: 100
         SfxVolumePct = 100,
+        DisableArcadeAmbientSound = false,
         AnnouncementLanguage = 1,
         CurrencyFullType = "Base.SilverCoin",
         -- Min: 0 Max: 300 Default: 100
@@ -1592,6 +1593,8 @@ SandboxVars = {
         General_CorpseSwapper = true,
     },
     DynamicTrading = {
+        -- Min: 0.00 Max: 1.00 Default: 0.01
+        InflationDecay = 0.01,
         -- Min: 0.10 Max: 10.00 Default: 1.00
         PriceBuyMult = 1.0,
         -- Min: 0.00 Max: 5.00 Default: 0.50
@@ -1600,29 +1603,16 @@ SandboxVars = {
         StockMult = 1.0,
         -- Min: 5 Max: 50 Default: 12
         MaxLogs = 12,
+        -- Min: 10 Max: 100 Default: 30
+        MaxGameplayLogs = 30,
+        DisableNightScanGate = false,
         -- Min: 0.00 Max: 100.00 Default: 2.00
         WalkieDropChance = 2.0,
-        -- Min: 0 Max: 10000000 Default: 10000
-        GlobalWealthStart = 10000,
-        -- Min: 0 Max: 50000 Default: 500
-        GlobalWealthStimulus = 500,
-        -- Min: 1 Max: 30 Default: 2
-        EventFrequency = 2,
         -- Min: 1 Max: 100 Default: 80
         EventChance = 80,
-        -- Min: 1 Max: 14 Default: 3
-        EventDuration = 3,
         AllowSeasonalEvents = true,
         AllowMetaEvents = true,
         AllowHardcoreEvents = true,
-        -- Min: 1 Max: 10 Default: 8
-        MaxEvents = 8,
-        -- Min: 0.00 Max: 500.00 Default: 50.00
-        V2_FlashEventThreshold_Food = 50.0,
-        -- Min: 0.00 Max: 200.00 Default: 10.00
-        V2_FlashEventThreshold_Ammo = 10.0,
-        -- Min: 0 Max: 100 Default: 5
-        V2_MetaEventChance = 5,
         -- Min: 1 Max: 168 Default: 24
         V2_FlashEventMinDuration = 24,
         -- Min: 1 Max: 336 Default: 72
@@ -1633,22 +1623,30 @@ SandboxVars = {
         FactionFlashMaxActive = 1,
         -- Min: 0 Max: 100 Default: 40
         NPCTradePopPercent = 40,
+        -- Min: 0 Max: 100 Default: 100
+        NPCTradeEligiblePercent = 100,
         -- Min: 0.10 Max: 24.00 Default: 1.00
         NPCTradingWalkHours = 1.0,
         -- Min: 0.50 Max: 72.00 Default: 24.00
         NPCTradingStayHours = 24.0,
-        -- Min: 0.00 Max: 1.00 Default: 0.01
-        InflationDecay = 0.01,
+        -- Min: 1.00 Max: 48.00 Default: 6.00
+        NPCDepartureVisibleHours = 6.0,
+        -- Min: 0.50 Max: 100.00 Default: 10.00
+        TraderBudgetPercent = 10.0,
+        -- Min: 0.10 Max: 10.00 Default: 1.00
+        FactionConsumptionMult = 1.0,
+        -- Min: 0.10 Max: 10.00 Default: 1.00
+        BuildingMaterialMult = 1.0,
+        -- Min: 0.10 Max: 10.00 Default: 1.00
+        ProductionMult = 1.0,
+        -- Min: 0.10 Max: 50.00 Default: 1.00
+        ZombieThreatMult = 1.0,
         -- Min: -50 Max: 100 Default: 0
         RarityBonus = 0,
         -- Min: 1 Max: 30 Default: 1
         RestockInterval = 1,
         -- Min: 0 Max: 1440 Default: 30
         ScanCooldown = 30,
-        -- Min: 1 Max: 20 Default: 2
-        DailyTraderMin = 2,
-        -- Min: 1 Max: 50 Default: 8
-        DailyTraderMax = 8,
         -- Min: 0.00 Max: 1.00 Default: 0.40
         ScanPenaltyPerTrader = 0.4,
         -- Min: 0.00 Max: 5.00 Default: 1.00
@@ -1690,9 +1688,9 @@ SandboxVars = {
         ColonyDailyCaloriesUse = 500,
         -- Min: 0 Max: 5000 Default: 500
         ColonyDailyHydrationUse = 500,
-        -- Min: 1.00 Max: 50.00 Default: 8.00
+        -- Min: 1.00 Max: 150.00 Default: 30.00
         ColonyBaseCarryWeight = 8.0,
-        -- Min: 0.10 Max: 24.00 Default: 2.00
+        -- Min: 0.10 Max: 24.00 Default: 1.00
         ColonyScavengeTravelHours = 2.0,
         -- Min: 1 Max: 5000 Default: 500
         ColonyBaseWorkAmount = 500,
@@ -1708,6 +1706,8 @@ SandboxVars = {
         ColonyDoctorHealthRegenMultiplier = 4.0,
         -- Min: 1 Max: 72 Default: 24
         ColonyBandageTreatmentHours = 24,
+        -- Min: 1 Max: 60 Default: 20
+        CompanionCommandRadius = 20,
     },
     HereGoesTheSun = {
         EnableGodRays = true,
