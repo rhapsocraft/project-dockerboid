@@ -9,10 +9,12 @@ services:
       args:
         # Reads STEAMAPPBRANCH from your .env file to set the build version (ARG).
         - STEAMAPPBRANCH=${STEAMAPPBRANCH}
+        - PUID=${PUID}
     env_file:
       - .env
     dns:
       - 8.8.8.8
+      - 8.8.4.4
       - 1.1.1.1
     ports:
       - "16261:16261/udp"
