@@ -68,9 +68,6 @@ enabled_mods:
   - SPNCCDetailsHD
   - SPNCCFaces
   - SpnHair
-  - TombBody
-  - TombBodyCustom
-  - TombBodyTex
   - SpnCloth
   - SpnOpenCloth
   - LilliesEnhancedMilitaryClothes
@@ -81,6 +78,9 @@ enabled_mods:
   - SM4BootsExpandedFlatshoes
   - YakiHRB42
   - HardwoodsTurnoutGear
+  - TombBody
+  - TombBodyCustom
+  - TombBodyTex
   - TombBodyCompat
   - TombBodyCompatBootsExp
 
@@ -97,7 +97,8 @@ workshop_ids:
   - 3695670830  # [B42] ZedColonies - Dynamic Trading Addon
   - 3469292499  # [B42] Bandits Creator
   - 3693258802  # Tactical Hold Complete
-  - 3414634809  # Spongie's Character Customisation
+#  - 3414634809  # Spongie's Character Customisation
+  - 3699104148  # Spongie's Character Customisation - TwisTonFire patch  
   - 3429790870  # Tomb's Player Body Overhaul
   - 2447729538  # Fluffy Hair [B41 & B42ish]
   - 2463184726  # Spongie's Hair
